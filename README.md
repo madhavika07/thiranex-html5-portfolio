@@ -26,3 +26,6 @@ Instead of generic wrappers, this layout implements specialized structural landm
 - **Lighthouse Accessibility Audit:** 100/100 Target
 - **Lighthouse SEO Audit:** 100/100 Target
 - **W3C HTML5 Validator:** Pass (Zero Warnings / Zero Errors)
+-    [![W3C HTML Validator](https://img.shields.io/badge/W3C_HTML5-Validated-emerald?style=flat-square&logo=w3c)](https://validator.w3.org/)
+[![Accessibility WCAG 2.1](https://img.shields.io/badge/Accessibility-WCAG_2.1_AA-blue?style=flat-square)](https://www.w3.org/WAI/standards-guidelines/wcag/)
+[![Lighthouse Score](https://img.shields.io/badge/Lighthouse-100%2F100-success?style=flat-square&logo=googlelighthouse)](https://developers.google.com/web/tools/lighthouse)
