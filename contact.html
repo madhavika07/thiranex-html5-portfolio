@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Portfolio</title>
+    <meta name="description" content="Get in touch with Madine Bala Ganga Gopi Sri Madhavika for web development collaborations.">
+</head>
+<body>
+
+    <header role="banner">
+        <h1>Get In Touch</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Me</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Form</h2>
+            <p>Please fill out the form below to reach out. All fields marked with an asterisk (<span aria-hidden="true">*</span>) are required.</p>
+            
+            <form action="#" method="POST" autocomplete="on">
+                
+                <div>
+                    <label自动 for="user-name">Full Name <span style="color:red;" aria-hidden="true">*</span>:</label>
+                    <input 
+                        type="text" 
+                        id="user-name" 
+                        name="name" 
+                        required 
+                        aria-required="true" 
+                        placeholder="e.g., John Doe">
+                </div>
+
+                <br />
+
+                <div>
+                    <label for="user-email">Email Address <span style="color:red;" aria-hidden="true">*</span>:</label>
+                    <input 
+                        type="email" 
+                        id="user-email" 
+                        name="email" 
+                        required 
+                        aria-required="true" 
+                        placeholder="name@example.com">
+                </div>
+
+                <br />
+
+                <div>
+                    <label for="message-subject">Subject:</label>
+                    <input 
+                        type="text" 
+                        id="message-subject" 
+                        name="subject" 
+                        placeholder="Collaboration Query">
+                </div>
+
+                <br />
+
+                <div>
+                    <label for="user-message">Your Message <span style="color:red;" aria-hidden="true">*</span>:</label>
+                    <textarea 
+                        id="user-message" 
+                        name="message" 
+                        rows="6" 
+                        required 
+                        aria-required="true" 
+                        placeholder="Write your message here..."></textarea>
+                </div>
+
+                <br />
+
+                <button type="submit" aria-label="Submit Contact Form">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Madine Bala Ganga Gopi Sri Madhavika. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
